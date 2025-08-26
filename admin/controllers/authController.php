@@ -22,5 +22,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['LOGIN'])) {
     }
 }
 
-// Nếu không phải là submit form đăng nhập, có thể hiển thị form đăng nhập
 require_once './login.php';
